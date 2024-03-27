@@ -1,0 +1,109 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #6d79cf, #d9d3e0);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: linear-gradient(to right, #131521, #b1beba);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    background-color: rgba(12, 11, 13, 0.7);
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cta-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-button a {
+    display: inline-block;
+    background-color: #141210;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.features {
+    text-align: center;
+    margin: 30px;
+}
+
+.feature {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(29, 31, 33, 0.7);
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.feature h2 {
+    font-size: 24px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #151313;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+}
+
+.social-icons i {
+    font-size: 2rem;
+}
+
+     }
+/* styles.css */
+
+/* Style for the image */
+img {
+    width: 10%; /* Make the image responsive */
+    max-width: 500px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for the image when hovered */
+img:hover {
+    opacity: 0.8; /* Reduce opacity to 80% on hover */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+}
